@@ -2,8 +2,9 @@
   "name": "time-spent.ts",
   "version": "0.1.0",
   "description": "VS Code extension to track the time you spent on projects",
-  "main": "index.ts",
+  "main": "dist/bundle.js",
   "scripts": {
+    "rollup": "rollup -c",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Ryuno-Ki/time-spent.ts/issues"
   },
-  "homepage": "https://github.com/Ryuno-Ki/time-spent.ts#readme"
+  "homepage": "https://github.com/Ryuno-Ki/time-spent.ts#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "@rollup/plugin-sucrase": "^3.0.2",
+    "rollup": "^2.14.0"
+  }
 }
