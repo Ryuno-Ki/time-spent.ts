@@ -1,0 +1,20 @@
+{
+  "name": "time-spent.ts",
+  "version": "0.1.0",
+  "description": "VS Code extension to track the time you spent on projects",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ryuno-Ki/time-spent.ts.git"
+  },
+  "keywords": [],
+  "author": "André Jaenisch",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/Ryuno-Ki/time-spent.ts/issues"
+  },
+  "homepage": "https://github.com/Ryuno-Ki/time-spent.ts#readme"
+}
