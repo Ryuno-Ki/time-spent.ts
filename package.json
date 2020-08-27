@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Ryuno-Ki/time-spent.ts#readme",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "8.0.1",
+    "@rollup/plugin-node-resolve": "9.0.0",
     "@rollup/plugin-sucrase": "3.0.2",
     "rollup": "2.14.0"
   }
